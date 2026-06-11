@@ -1,0 +1,165 @@
+body{
+    margin:0;
+    background:#d4b2a2;
+    font-family:Georgia;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    background:#e8d9c7;
+    padding:10px 20px;
+    border:2px solid #7c5d4f;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:50px;
+}
+
+.hero h1{
+    font-size:80px;
+}
+.about{
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.about p{
+    font-family: Georgia, serif;
+    font-size: 24px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.developer img{
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.developer h3{
+    font-family: "Brush Script MT", cursive;
+    font-size: 36px;
+    margin-top: 15px;
+}
+.hero img{
+    width:300px;
+}
+
+.produk-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:30px;
+}
+
+.produk{
+    background:white;
+    text-align:center;
+    padding:10px;
+    border-radius:10px;
+}
+
+.produk img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+button{
+    background:brown;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+.about{
+    padding:30px;
+}
+
+.developer{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+}
+
+.developer img{
+    width:180px;
+    border-radius:20px;
+}
+
+.kontak{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:300px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.kontak a{
+    background:white;
+    padding:15px;
+    text-decoration:none;
+    color:black;
+    border-radius:10px;
+}
+.kontak{
+    width: 500px;
+    margin: 50px auto;
+}
+
+.item-kontak{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    background: #f5e6d3;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.item-kontak img{
+    width: 40px;
+    height: 40px;
+}
+
+.item-kontak span{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #e8d9c7;
+}
+
+footer p{
+    margin: 0;
+}
